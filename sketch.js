@@ -10,9 +10,7 @@ var rope;
 var bobDiameter=80;
 
 
-function preload()
-{
-	bckgrnd = loadImage("rainbow")
+function preload(){
 }
 
 function setup() {
@@ -67,11 +65,6 @@ function draw() {
   
   drawSprites();
  
-  textSize(30);
- fill ("black");
-  text("Please press the 'up' arrow key to start the Newton's Cradle.",100,30);
- 
-}
 
 function keyPressed(){
 	if(keyCode===UP_ARROW){
